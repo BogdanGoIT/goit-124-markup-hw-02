@@ -5,6 +5,7 @@ body {
   background-color: #fff;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* BASE */
@@ -41,4 +42,23 @@ a {
 .address-list a {
   color: #434455;
   font-style: normal;
+}
+
+/* HERO */
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  color: #fff;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: #fff;
 }
