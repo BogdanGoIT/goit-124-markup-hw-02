@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,11 +21,13 @@
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <!--navigation -->
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
+      <nav class="nav">
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-accent">Studio</span></a
+        >
+        <ul class="nav-list">
           <li><a href="/studio">Studio</a></li>
           <li><a href="/portfolio">Portfolio</a></li>
           <li><a href="/contacts">Contacts</a></li>
@@ -27,7 +36,7 @@
 
       <!-- contacts -->
       <address>
-        <ul>
+        <ul class="address-list">
           <li>
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
