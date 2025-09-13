@@ -19,7 +19,8 @@ a {
 }
 
 /* title h2 */
-.values-title {
+.values-title,
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -54,7 +55,6 @@ a {
 /* HERO */
 .hero {
   background-color: #2e2f42;
-  text-align: center;
 }
 
 .hero-title {
@@ -74,13 +74,21 @@ a {
 
 /* Our Values */
 
-.values-subtitle {
+.values-subtitle,
+.team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 
-.values-text {
-  line-height: 1.5;
+.values-text,
+.team-text {
   color: #434455;
 }
+
+/* Our TEAM */
+.team {
+  background-color: #f4f4fd;
+}
+
+/* PORTFOLIO */
