@@ -97,3 +97,11 @@ a {
 /* PORTFOLIO */
 
 /* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo .accent,
+.footer-text {
+  color: #f4f4fd;
+}
