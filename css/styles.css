@@ -31,8 +31,7 @@ a {
 }
 
 /* HEADER */
-.header .logo,
-.footer .logo {
+.logo {
   font-family: 'Raleway' sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -42,7 +41,7 @@ a {
   color: #4d5ae5;
 }
 
-.header .logo .accent {
+.logo .accent {
   color: #2e2f42;
 }
 
