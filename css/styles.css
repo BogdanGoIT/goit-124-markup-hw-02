@@ -28,6 +28,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 /* HEADER */
@@ -79,7 +80,6 @@ a {
   text-align: center;
   color: #fff;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .hero-button {
