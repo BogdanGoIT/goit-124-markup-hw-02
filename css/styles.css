@@ -42,7 +42,7 @@ a {
   color: #4d5ae5;
 }
 
-.logo .accent {
+.logo .light {
   color: #2e2f42;
 }
 
@@ -132,7 +132,7 @@ a {
   background-color: #2e2f42;
 }
 
-.footer .logo .accent,
-.footer-text {
+.footer-text,
+.logo .dark {
   color: #f4f4fd;
 }
